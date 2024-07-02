@@ -1,0 +1,256 @@
+<!-- Diksha Chauhan 8890858 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Characters</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/Friends_logo.svg.png" alt="logo">
+            <!-- Reference: https://en.wikipedia.org/wiki/Friends#/media/File:Friends_logo.svg -->
+        </a>
+        <h1>Friends - Diksha Chauhan - dchauhan0858@conestogac.on.ca</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Friends</a></li>
+            <li><a href="reunion.html">Reunion</a></li>
+            <li>
+                <a href="inner.html">Characters</a>
+                <ul>
+                    <li><a href="inner.html#themeSong">Theme Song</li></a>
+                    <li><a href="inner.html#ratings">Ratings</li></a>
+                    <li><a href="inner.html#feedback">Feeback</li></a>
+                </ul>
+            </li>
+            <li><a href="quotes.html">Quotes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div></div>
+        <div class="hero">
+            <h2>I'll be there for you.</h2>
+            <img src="images/characters.webp">
+        </div>
+
+        <div class="charPart1">
+            <div>
+                <h2>Characters</h2>
+                <p>Ross Geller (David Schwimmer) - A paleontologist with a complicated romantic life, particularly his
+                    on-off relationship with Rachel. Monica's older brother.
+
+                    Rachel Green (Jennifer Aniston) - Initially a waitress, Rachel later pursues a career in fashion.
+                    Ross's love interest and Monica's childhood friend.
+
+                    Monica Geller (Courteney Cox) - Ross's meticulous younger sister, a chef, and a nurturing figure
+                    within the group.
+
+                    Chandler Bing (Matthew Perry) - Known for his sarcastic humor, Chandler works in IT and advertising.
+                    He has a significant relationship with Monica.
+
+                    Joey Tribbiani (Matt LeBlanc) - An aspiring actor with a love for food and a carefree personality.
+
+                    Phoebe Buffay (Lisa Kudrow) - A quirky and free-spirited musician with an unusual past.</p>
+            </div>
+            <video  loop muted controls id="themeSong" poster="images/HeroImage1.jpeg">
+                <source src="images/'I'll Be There For You' (Friends Theme Song).mp4">
+            </video>
+            <!-- Reference image : https://wallpapercave.com/w/vhrSNuJ
+            Reference video : https://www.youtube.com/watch?v=s2TyVQGoCYo -->
+        </div>
+
+        <!-- Reference : https://en.wikipedia.org/wiki/Friends#Awards -->
+        <h2>Ratings Table</h2>
+        <table id="ratings">
+            <tr>
+                <th>Season</th>
+                <th>Season premiere</th>
+                <th>TV season</th>
+                <th>Rank</th>
+                <th>Viewers(in millions)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>September 22, 1994</td>
+                <td>1994–95</td>
+                <td>8</td>
+                <td>31.3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>September 21, 1995</td>
+                <td>1995–96</td>
+                <td>3</td>
+                <td>52.9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>September 19, 1996</td>
+                <td>1996–97</td>
+                <td>4</td>
+                <td>29.80</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>September 25, 1997</td>
+                <td>1997–98</td>
+                <td>4</td>
+                <td>31.61</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>September 24, 1998</td>
+                <td>1998–99</td>
+                <td>2</td>
+                <td>31.12</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>September 23, 1999 </td>
+                <td>1999–2000</td>
+                <td>5</td>
+                <td>30.73</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>October 12, 2000</td>
+                <td>2000–01</td>
+                <td>5</td>
+                <td>30.05</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>September 27, 2001</td>
+                <td>2001–02</td>
+                <td>1</td>
+                <td>34.91</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>September 26, 2002</td>
+                <td>2002–03</td>
+                <td>2</td>
+                <td>34.01</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>September 25, 2003</td>
+                <td>2003–04</td>
+                <td>4</td>
+                <td>52.46</td>
+            </tr>
+        </table>
+        <div class="feedback">
+            <h2>Feedback:</h2>
+        </div>
+        <form action="" id="feedback">
+            <div class="field">
+                <label for="name">Name: </label>
+                <input type="text" name="uname">
+            </div>
+            <div class="field">
+                <label for="email">Email: </label>
+                <input type="email" name="email">
+            </div>
+            <div class="field">
+                <label for="date">Date:</label>
+                <input type="date" name="date">
+            </div>
+            <div class="field">
+                <label for="favourite">Your Favourite:</label>
+                <select name="favourite" id="favourite">
+                    <optgroup label="Main Characters">
+                        <option value="Ross Geller">Ross Geller</option>
+                        <option value="Rachel Green">Rachel Green</option>
+                        <option value="Monica Geller">Monica Geller</option>
+                        <option value="Chandler Bing">Chandler Bing</option>
+                        <option value="Joey Tribbiani">Joey Tribbiani</option>
+                        <option value="Phoebe Buffay">Phoebe Buffay</option>
+                    </optgroup>
+                    <optgroup label="Side Actors">
+                        <option value="Janice Hosenstein">Janice Hosenstein</option>
+                        <option value="Gunther">Gunther</option>
+                        <option value="Carol Willick">Carol Willick</option>
+
+                    </optgroup>
+                </select>
+            </div>
+            <div class="field">
+                <label for="bestScene">Best Scene from Friends</label>
+                <textarea name="bestScene"></textarea>
+            </div>
+
+            <div class="checkbox">
+                <label for="location">Best Shoot Locations?</label><br>
+                <input type="checkbox" id="location1" name="location" value="Monica's Apartment">
+                <p> Monica's Apartment </p><br>
+                <input type="checkbox" id="location2" name="location" value="Central Perk">
+                <p> Central Perk</p><br>
+                <input type="checkbox" id="location3" name="location" value="Chandler & Joey's Apartment">
+                <p>Chandler & Joey's Apartment </p>
+
+            </div>
+
+            <div class="radiobutton">
+                <label for="rating">Give your Rating:</label><br>
+                <input type="radio" id="rating1" name="rating" value="Good">
+                <label for="rating1">Good</label><br>
+                <input type="radio" id="rating2" name="rating" value="Very Good">
+                <label for="rating2">Very Good</label><br>
+                <input type="radio" id="rating3" name="rating" value="Awesome">
+                <label for="rating3">Awesome</label><br><br>
+            </div>
+            <button type="submit">Submit</button><br>
+            <button type="reset">Reset</button>
+        </form>
+        <br>
+    </main>
+
+    <footer>
+        <div class=footerLink>
+            <div class="footer">
+
+                <h3>Additional Information</h3>
+                <ul>
+                    <li><a href="#"> Media</a></li>
+                    <li><a href="#"> Release </a></li>
+                    <li><a href="#"> Broadcast </a></li>
+                </ul>
+            </div>
+
+            <div class="footer">
+
+                <h3>Production</h3>
+                <ul>
+                    <li><a href="#"> Conception </a></li>
+                    <li><a href="#"> Casting </a></li>
+                    <li><a href="#"> Filming </a></li>
+                </ul>
+            </div>
+
+            <div class="footer">
+
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="reunion.html"> Reunion </a></li>
+                    <li><a href="inner.html"> Characters </a></li>
+                    <li><a href="quotes.html"> Quotes </a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p> &copy; Diksha Chauhan, dchauhan0858@conestogac.on.ca </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
